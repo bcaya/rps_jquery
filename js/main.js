@@ -93,7 +93,7 @@ $('.choice').click(function(){
 		}
    console.log(user_win)
    $('.user_choice').after(user_choice)
-    $('.computer_chose').after(computer_choice)
+    $('.computer_choice').after(computer_choice)
 
  
 })
