@@ -1,17 +1,26 @@
+
 <html>
   <head>
     <title>RPS</title>
-    <link rel"stylesheet" href="css/main.css">
-
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel"stylesheet" href="css/main.css">
+  <!-- Compiled and minified JavaScript -->
   </head>
 
 <body>
- 
-  <button id="rock" class="choice">Rock</button>
-  <button id="paper" class="choice">Paper</button>
-  <button id="scissors" class="choice">Scissors</button>
-  <h1 class = "win"> </h1>
-
+<div class = "container">
+  <div class = "row">
+    <div class ="col s4"><button id="rock" class="choice"><img class="responsive-img" src="images/rock1.png">Rock</button></div>
+    <div class ="col s4"><button id="paper" class="choice"><img class="responsive-img" src="images/paper1.png">Paper</button></div>
+    <div class ="col s4"><button id="scissors" class="choice"><img class="responsive-img" src="images/scissors1.png">Scissors</button></div>
+  </div>
+    <br />
+  <h2>User Chose:<div class='user_choice'></div> </h2>
+  <h2>Computer Chose:<div class='computer_chose'></div> </h2>
+  <h1 class = "win">Who wins?</h1>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script   src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous">
 </script>
  <script src = "js/main.js"></script>
